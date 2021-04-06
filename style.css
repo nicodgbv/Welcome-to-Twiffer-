@@ -637,6 +637,10 @@ body{
     cursor: pointer;
 }
 
+.follow-btn:hover {
+    background-color: #1aa1f5;
+    color: #fff;
+}
 .follow-link {
     margin: 2rem 1rem;
 }
@@ -683,6 +687,17 @@ body{
 
 .post-btn:hover {
     background-color: #117abb;
+}
+
+.hashtags {
+    color: #1aa1f5;
+    text-decoration:  none;
+}
+
+.hashtags:hover {
+    color: #117abb;
+    font-weight: bold;
+    text-decoration:  underline;
 }
 
 /* end of feed page */
