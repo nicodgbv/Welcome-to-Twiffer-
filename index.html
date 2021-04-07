@@ -58,8 +58,8 @@
           <i class="fas fa-dove"></i>
           <h1>Explore what's happening in the world</h1>
           <h4>Join Twiffer today</h4>
-          <button type="button" class="sign-up"> Sign up</button>
-          <button type="button" class="log-in"> Log in</button>
+          <button type="button" class="sign-up main-btn"> Sign up</button>
+          <button type="button" class="log-in main-btn"> Log in</button>
         </div>
       </div>
       <!-- End of right -->
@@ -100,8 +100,8 @@
       <div class="login-content">
         <h2>Log into Twiffer</h2>
         <form class="login-form">
-          <input type="text" placeholder="Phone, email or username" />
-          <input type="password" placeholder="Password" />
+          <input type="text" placeholder="Phone, email or username" class="login-user-info"/>
+          <input type="password" placeholder="Password" class="login-password"/>
           <div>
             <button type="button" class="login-form-btn">Log In</button>
             <input type="checkbox" class="login-form-checkbox" id="check" />
@@ -118,9 +118,18 @@
       </footer>
     </div>
     <!-- End of login -->
+
+ <!--  Login modal  -->
+  <div class="login-modal">
+    <i class="fas fa-times"></i>
+      <p> The username and password you entered did not match our records. Please double check and try again. </p>
+  </div>
+ <!--  End of login modal  -->
+
   </section>
   <!-- End of login page -->
- 
+
+
   <!-- Feed page -->
   <section class="feed-page">
     <!-- Feed nav -->
@@ -291,31 +300,31 @@
             <h3 class="follow-heading">Who to follow</h3>
             <div class="follow-user">
                 <div class="follow-user-img">
-                    <img src="images/user4.jpg">
+                    <img src="images/user7.jpg">
                 </div>
                 <div class="follow-user-info">
-                    <h4>Zaf</h4>
-                    <p>@zara</p>
+                    <h4>Lulu</h4>
+                    <p>@toudou</p>
                 </div>
                 <button type="button" class="follow-btn">Follow</button>
             </div>
             <div class="follow-user">
                 <div class="follow-user-img">
-                    <img src="images/user2.jpg">
+                    <img src="images/user8.jpg">
                 </div>
                 <div class="follow-user-info">
-                    <h4>Naon</h4>
-                    <p>@adjanaon</p>
+                    <h4>Noor</h4>
+                    <p>@divad</p>
                 </div>
                 <button type="button" class="follow-btn">Follow</button>
             </div>
             <div class="follow-user">
                 <div class="follow-user-img">
-                    <img src="images/user6.jpg">
+                    <img src="images/user9.jpg">
                 </div>
                 <div class="follow-user-info">
-                    <h4>Mama</h4>
-                    <p>@hat</p>
+                    <h4>David</h4>
+                    <p>@lapeaulisse</p>
                 </div>
                 <button type="button" class="follow-btn">Follow</button>
             </div>
@@ -339,6 +348,6 @@
     </button>
   </section>
   <!-- End of the feed page -->
-
+  <script src="script.js"></script>
   </body>
 </html>
